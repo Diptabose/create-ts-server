@@ -1,0 +1,27 @@
+{
+  "name": "create-ts-server",
+  "version": "1.0.4",
+  "description": "This package is meant to scaffold a express server with default tsc watcher.",
+  "main": "index.js",
+  "bin": "./bin.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npx",
+    "create",
+    "ts",
+    "typescript",
+    "server",
+    "create-server"
+  ],
+  "author": "Soumyadipta Bose",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
+  }
+}
