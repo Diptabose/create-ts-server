@@ -1,6 +1,6 @@
 # Prebuilt Typescript Express Server CLI
 
-A fast and opinionated Node.js CLI tool to scaffold a prebuilt **MERN-style server** with TypeScript, Express, and a ready-to-use folder structure. Perfect for quickly starting backend projects with all essential boilerplate in place.
+A fast and opinionated Node.js CLI tool to scaffold a prebuilt **Typescipt express server** with TypeScript, Express, and a ready-to-use folder structure. Perfect for quickly starting backend projects with all essential boilerplate in place.
 
 ---
 
