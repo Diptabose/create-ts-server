@@ -1,7 +1,7 @@
 {
   "name": "create-ts-server",
-  "version": "1.0.4",
-  "description": "This package is meant to scaffold a express server with default tsc watcher.",
+  "version": "1.0.0",
+  "description": "Scaffolds a Typescript based express server for Node.js.",
   "main": "index.js",
   "bin": "./bin.js",
   "type": "module",
