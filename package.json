@@ -1,6 +1,6 @@
 {
   "name": "create-mer-server",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Scaffolds a Typescript based express server for Node.js.",
   "main": "index.js",
   "bin": "./bin.js",
@@ -12,6 +12,8 @@
     "type": "git",
     "url": "https://github.com/Diptabose/create-ts-server.git"
   },
+  "readme": "https://github.com/Diptabose/create-ts-server/blob/main/README.md",
+
   "keywords": [
     "npx",
     "create",
