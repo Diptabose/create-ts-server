@@ -133,4 +133,3 @@ async function main() {
   }
 }
 
-main();

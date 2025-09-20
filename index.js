@@ -44,5 +44,5 @@ export const scripts = {
   "dev:watch": "nodemon ./dist/index.js",
   "build:watch": "tsc -w & nodemon ./dist/index.js",
   build: "tsc",
-  dev: "node ./dist/index.js",
+  start: "node ./dist/index.js",
 };
