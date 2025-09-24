@@ -1,6 +1,6 @@
 {
   "name": "create-mer-server",
-  "version": "1.0.7-alpha.1",
+  "version": "1.0.7-alpha.2",
   "description": "Scaffolds a Typescript based express server for Node.js.",
   "main": "index.js",
   "bin": "./bin.js",
