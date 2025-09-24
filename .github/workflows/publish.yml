@@ -2,7 +2,7 @@ name: Publish create-mer-server to npm registry
 
 on:
   release:
-    types: released
+    types: [prereleased, released]
 
 permissions:
   id-token: write # Required for OIDC
