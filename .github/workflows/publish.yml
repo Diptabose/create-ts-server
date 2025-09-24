@@ -17,11 +17,14 @@ jobs:
 
       - name: Setup nodejs
         uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          check-latest: true
 
       - name: Check node and npm versions
         run: |
           npm -v
           node -v
-          
+
       - name: Publish to NPM
         run: npm publish
