@@ -1,12 +1,8 @@
 name: Publish create-mer-server to npm registry
 
-# on:
-#   release:
-#     types: [prereleased, released]
-
 on:
-  push:
-    branches: main
+  release:
+    types: [prereleased, released]
 
 permissions:
   id-token: write # Required for OIDC
@@ -32,4 +28,4 @@ jobs:
           node -v
 
       - name: Publish to NPM
-        run: npm publish --tag alpha
+        run: npm publish
