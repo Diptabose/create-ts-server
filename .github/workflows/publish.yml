@@ -1,0 +1,25 @@
+name: Publish create-mer-server to npm registry
+
+on:
+  release:
+    types: released
+
+permissions:
+  id-token: write # Required for OIDC
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code checkout
+        uses: actions/checkout@v5
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v5
+
+      - name: Update npm to latest
+        run: npm install -g npm@latest
+
+      - name: Publish to NPM
+        run: npm publish
