@@ -22,5 +22,6 @@ jobs:
         run: |
           npm -v
           node -v
+          
       - name: Publish to NPM
         run: npm publish
