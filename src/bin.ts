@@ -9,7 +9,6 @@ import { execAsync } from "./utils/executor.js";
 import { argvToConfiguration } from "./utils/cli-args.js";
 import { Configuration } from "./types/config.js";
 
-process.env.NO_UPDATE_NOTIFIER = "true";
 const installables = ["express", "cors"];
 const devInstallables = [
   "nodemon",
