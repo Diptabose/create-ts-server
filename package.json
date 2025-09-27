@@ -23,6 +23,9 @@
     "server",
     "create-server"
   ],
+  "files": [
+    "dist"
+  ],
   "author": "Soumyadipta Bose",
   "license": "ISC",
   "devDependencies": {
