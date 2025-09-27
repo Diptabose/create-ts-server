@@ -1,6 +1,6 @@
 import { createInterface } from "readline";
 
-export function prompt(question) {
+export function prompt(question: string): Promise<string> {
   const rl = createInterface({
     input: process.stdin,
     output: process.stdout,

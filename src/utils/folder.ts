@@ -1,5 +1,5 @@
 const npmNameRegex = /^(?:@[a-z0-9-~][a-z0-9-._~]*\/)?[a-z0-9-~][a-z0-9-._~]*$/;
-export function validFolderName(folderName) {
+export function validFolderName(folderName: string) {
   folderName = folderName?.trim();
 
   if (folderName.length < 0) {

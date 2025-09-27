@@ -3,17 +3,18 @@
   "version": "1.0.8",
   "description": "Scaffolds a Typescript based express server for Node.js.",
   "main": "index.js",
-  "bin": "./bin.js",
+  "bin": ".dist/bin.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node dist/bin.js",
+    "build:watch": "tsc --watch",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Diptabose/create-ts-server.git"
   },
   "readme": "https://github.com/Diptabose/create-ts-server/blob/main/README.md",
-
   "keywords": [
     "npx",
     "create",
@@ -25,9 +26,6 @@
   "author": "Soumyadipta Bose",
   "license": "ISC",
   "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.3",
-    "nodemon": "^3.1.10",
     "typescript": "^5.9.2"
   }
 }
