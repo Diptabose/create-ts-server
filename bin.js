@@ -133,3 +133,6 @@ async function main() {
   }
 }
 
+
+main();
+
