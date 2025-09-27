@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "node dist/bin.js",
     "build:watch": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,7 @@
   "author": "Soumyadipta Bose",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^24.5.2",
     "typescript": "^5.9.2"
   }
 }

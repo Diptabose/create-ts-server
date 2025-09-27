@@ -1,15 +1,11 @@
-import { createInterface } from "readline";
+import { createInterface } from "readline/promises";
 
-export function prompt(question: string): Promise<string> {
+export async function prompt(question: string): Promise<string> {
   const rl = createInterface({
     input: process.stdin,
     output: process.stdout,
   });
-
-  return new Promise((resolve) => {
-    rl.question(question, (answer) => {
-      rl.close();
-      resolve(answer.toLowerCase());
-    });
-  });
+  const userInput = await rl.question(question);
+  rl.close();
+  return userInput;
 }
