@@ -26,6 +26,9 @@ jobs:
         run: |
           npm -v
           node -v
-          
+
+      - name: Build application
+        run: npm run build
+
       - name: Publish to NPM
         run: npm publish
