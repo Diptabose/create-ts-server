@@ -3,7 +3,7 @@
   "version": "1.0.81",
   "description": "Scaffolds a Typescript based express server for Node.js.",
   "main": "./dist/index.js",
-  "bin": ".dist/bin.js",
+  "bin": "./dist/bin.js",
   "type": "module",
   "scripts": {
     "dev": "node dist/bin.js",
